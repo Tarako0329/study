@@ -1,0 +1,112 @@
+body {
+    padding-top: 70px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+header{
+    height: 50px; /* 高さを50pxに指定 */
+    background: #CCC; /* 背景色にグレーを指定 */
+    padding: 20px 50px; /* ヘッダーに上下左右それぞれ余白を指定 */
+    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
+    background: #ff838b;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; /* 上下の固定位置を上から0pxにする */
+    left: 0; /* 左右の固定位置を左から0pxにする */
+    width: 100%;
+}
+.contentA{
+    background: #b3d874;
+    width: 80%;
+    height: 100%;
+}
+.contentB{
+    background: #6fb5ff;
+    width: 20%;
+    height: 100%;
+}
+footer{
+    background: #ffce5b;
+    height: 50px; /* 高さを50pxに指定 */
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    bottom: 0;
+    Right: 0;
+    width: 20%;
+}
+
+
+.main{
+    display: flex;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+ul{
+   display:flex;
+   flex-wrap:wrap;
+   list-style:none;
+   margin:0;
+   padding:0;
+ }
+li{
+   width:21%;
+   margin:2%;
+   height:180px; 
+   line-height:180px; 
+   background:#c3c3c3;
+   text-align:center;
+}
+ 
+
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%; /*ルートサイズ10px rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+    width:100%; /*親要素と同じ幅*/
+    height:100%; 
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 85px 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+

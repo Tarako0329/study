@@ -1,0 +1,28 @@
+[06-Dec-2021 06:32:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ifduktdo_CafePresent.ShouhinM' doesn't exist in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php:56
+Stack trace:
+#0 /home/ifduktdo/public_html/Laravel/resources/views/menu2.php(56): mysqli->query('select * from S...')
+#1 {main}
+  thrown in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 56
+[06-Dec-2021 06:46:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ifduktdo_CafePresent.ShouhinM' doesn't exist in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php:56
+Stack trace:
+#0 /home/ifduktdo/public_html/Laravel/resources/views/menu2.php(56): mysqli->query('select * from S...')
+#1 {main}
+  thrown in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 56
+[06-Dec-2021 06:48:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ifduktdo_CafePresent.ShouhinM' doesn't exist in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php:57
+Stack trace:
+#0 /home/ifduktdo/public_html/Laravel/resources/views/menu2.php(57): mysqli->query('select * from S...')
+#1 {main}
+  thrown in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 57
+[06-Dec-2021 08:11:07 UTC] PHP Parse error:  syntax error, unexpected '”' (T_STRING), expecting ')' in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 61
+[06-Dec-2021 08:11:13 UTC] PHP Parse error:  syntax error, unexpected '”' (T_STRING), expecting ')' in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 61
+[06-Dec-2021 10:24:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 66
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 97
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 97
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 96
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 97
+[06-Dec-2021 10:29:24 UTC] PHP Notice:  Undefined variable: row in /home/ifduktdo/public_html/Laravel/resources/views/menu2.php on line 97
